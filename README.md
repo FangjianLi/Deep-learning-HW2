@@ -13,3 +13,10 @@ This is for the deep learning course homework-2
 5. The test and training data can be download from https://drive.google.com/open?id=1RevHMfXZ1zYjUm4fPU1CfFKAjyMJjdgJ
 
 6. In the hw2/others, there are seq2seq, seq2seq+attention, seq2seq+schedule_sampling models
+
+
+## Required packages
+1. python 3.6
+2. tensorflow 1.14
+3. numpy 1.19
+4. pandas 1.1.5

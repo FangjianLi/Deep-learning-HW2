@@ -105,7 +105,7 @@ def BLEU(s,t,flag = False):
 ### Ref : https://github.com/vikasnar/Bleu
 if __name__ == "__main__" :
     test = json.load(open('./captions/testing_label.json','r'))
-    output = "generated_video_caption.txt"
+    output = sys.argv[1]
     result = {}
     with open(output,'r') as f:
         for line in f:
@@ -123,4 +123,4 @@ if __name__ == "__main__" :
         bleu.append(score_per_video[0])
     maximum = max(bleu)
     average = sum(bleu) / len(bleu)
-    print("Average bleu score is " + str(average) +"\t Maximum bleu score is"+str(maximum) )
+    print("Average bleu score is " + str(average) )

@@ -4,3 +4,4 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 
 python seq_to_seq_test.py $1 $2
 
+python bleu_eval.py $2

@@ -8,7 +8,9 @@ This is for the deep learning course homework-2
 
 3. The model in hw2/hw2_1 is the seq2seq+attention+schedule_sampling
 
-4. The Bleu score is 0.6764
+4. Run the sh file (example): ./hw2_seq2seq.sh ./feature_dirs_testing ./generated_video_caption.txt
+
+4. The Bleu score is 0.6764 
 
 5. The test and training data can be download from https://drive.google.com/open?id=1RevHMfXZ1zYjUm4fPU1CfFKAjyMJjdgJ, training feature files can be put into ./feature_dirs_training. The caption files can be put into ./captions
 

@@ -219,7 +219,5 @@ def test_it(num, test_feat_path = "./feature_dirs_testing", caption_test_path = 
 if __name__ == '__main__':
     test_feat_path = sys.argv[1] 
     caption_test_path = sys.argv[2]
-    if not os.path.exists(caption_test_path):
-    	os.mknod(caption_test_path)
     test_it(69, test_feat_path, caption_test_path)
     

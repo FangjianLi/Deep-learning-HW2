@@ -1,5 +1,5 @@
-# Deep-learning-HW2
-This is for the deep learning course homework-2
+# Deep-learning-project2
+This is for the deep learning course project-2
 
 ## Descriptions
 1. As instructed, there is a directory hw2/hw2_1 which contains 1). report.pdf, 2). seq2seq_model (./saved_model) 3. hw2_seq2seq.sh, and 4).model_seq2seq.py
